@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0673A2823ECB8D000A8A7CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0673A2723ECB8D000A8A7CB /* AppDelegate.swift */; };
+		E0673A2A23ECB8D000A8A7CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0673A2923ECB8D000A8A7CB /* ViewController.swift */; };
+		E0673A2C23ECB8D200A8A7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0673A2B23ECB8D200A8A7CB /* Assets.xcassets */; };
+		E0673A2F23ECB8D200A8A7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0673A2D23ECB8D200A8A7CB /* Main.storyboard */; };
+		E0673A3B23ECB8D200A8A7CB /* MacHasInsomniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0673A3723ECB8D200A8A7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0673A1C23ECB8D000A8A7CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0673A2323ECB8D000A8A7CB;
+			remoteInfo = MacHasInsomnia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0673A2423ECB8D000A8A7CB /* MacHasInsomnia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacHasInsomnia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0673A2723ECB8D000A8A7CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0673A2923ECB8D000A8A7CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0673A2B23ECB8D200A8A7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0673A2E23ECB8D200A8A7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0673A3023ECB8D200A8A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0673A3123ECB8D200A8A7CB /* MacHasInsomnia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacHasInsomnia.entitlements; sourceTree = "<group>"; };
+		E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacHasInsomniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHasInsomniaTests.swift; sourceTree = "<group>"; };
+		E0673A3C23ECB8D200A8A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0673A2123ECB8D000A8A7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0673A3323ECB8D200A8A7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0673A1B23ECB8D000A8A7CB = {
+			isa = PBXGroup;
+			children = (
+				E0673A2623ECB8D000A8A7CB /* MacHasInsomnia */,
+				E0673A3923ECB8D200A8A7CB /* MacHasInsomniaTests */,
+				E0673A2523ECB8D000A8A7CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0673A2523ECB8D000A8A7CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0673A2423ECB8D000A8A7CB /* MacHasInsomnia.app */,
+				E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0673A2623ECB8D000A8A7CB /* MacHasInsomnia */ = {
+			isa = PBXGroup;
+			children = (
+				E0673A2723ECB8D000A8A7CB /* AppDelegate.swift */,
+				E0673A2923ECB8D000A8A7CB /* ViewController.swift */,
+				E0673A2B23ECB8D200A8A7CB /* Assets.xcassets */,
+				E0673A2D23ECB8D200A8A7CB /* Main.storyboard */,
+				E0673A3023ECB8D200A8A7CB /* Info.plist */,
+				E0673A3123ECB8D200A8A7CB /* MacHasInsomnia.entitlements */,
+			);
+			path = MacHasInsomnia;
+			sourceTree = "<group>";
+		};
+		E0673A3923ECB8D200A8A7CB /* MacHasInsomniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */,
+				E0673A3C23ECB8D200A8A7CB /* Info.plist */,
+			);
+			path = MacHasInsomniaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0673A2323ECB8D000A8A7CB /* MacHasInsomnia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0673A3F23ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomnia" */;
+			buildPhases = (
+				E0673A2023ECB8D000A8A7CB /* Sources */,
+				E0673A2123ECB8D000A8A7CB /* Frameworks */,
+				E0673A2223ECB8D000A8A7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacHasInsomnia;
+			productName = MacHasInsomnia;
+			productReference = E0673A2423ECB8D000A8A7CB /* MacHasInsomnia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0673A3523ECB8D200A8A7CB /* MacHasInsomniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0673A4223ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomniaTests" */;
+			buildPhases = (
+				E0673A3223ECB8D200A8A7CB /* Sources */,
+				E0673A3323ECB8D200A8A7CB /* Frameworks */,
+				E0673A3423ECB8D200A8A7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0673A3823ECB8D200A8A7CB /* PBXTargetDependency */,
+			);
+			name = MacHasInsomniaTests;
+			productName = MacHasInsomniaTests;
+			productReference = E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0673A1C23ECB8D000A8A7CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Codeclown;
+				TargetAttributes = {
+					E0673A2323ECB8D000A8A7CB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E0673A3523ECB8D200A8A7CB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E0673A2323ECB8D000A8A7CB;
+					};
+				};
+			};
+			buildConfigurationList = E0673A1F23ECB8D000A8A7CB /* Build configuration list for PBXProject "MacHasInsomnia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0673A1B23ECB8D000A8A7CB;
+			productRefGroup = E0673A2523ECB8D000A8A7CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0673A2323ECB8D000A8A7CB /* MacHasInsomnia */,
+				E0673A3523ECB8D200A8A7CB /* MacHasInsomniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0673A2223ECB8D000A8A7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0673A2C23ECB8D200A8A7CB /* Assets.xcassets in Resources */,
+				E0673A2F23ECB8D200A8A7CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0673A3423ECB8D200A8A7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0673A2023ECB8D000A8A7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0673A2A23ECB8D000A8A7CB /* ViewController.swift in Sources */,
+				E0673A2823ECB8D000A8A7CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0673A3223ECB8D200A8A7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0673A3B23ECB8D200A8A7CB /* MacHasInsomniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0673A3823ECB8D200A8A7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0673A2323ECB8D000A8A7CB /* MacHasInsomnia */;
+			targetProxy = E0673A3723ECB8D200A8A7CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0673A2D23ECB8D200A8A7CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0673A2E23ECB8D200A8A7CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0673A3D23ECB8D200A8A7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0673A3E23ECB8D200A8A7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E0673A4023ECB8D200A8A7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacHasInsomnia/MacHasInsomnia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FXN67LT3SC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacHasInsomnia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomnia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0673A4123ECB8D200A8A7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacHasInsomnia/MacHasInsomnia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FXN67LT3SC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacHasInsomnia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomnia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0673A4323ECB8D200A8A7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FXN67LT3SC;
+				INFOPLIST_FILE = MacHasInsomniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacHasInsomnia.app/Contents/MacOS/MacHasInsomnia";
+			};
+			name = Debug;
+		};
+		E0673A4423ECB8D200A8A7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FXN67LT3SC;
+				INFOPLIST_FILE = MacHasInsomniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacHasInsomnia.app/Contents/MacOS/MacHasInsomnia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0673A1F23ECB8D000A8A7CB /* Build configuration list for PBXProject "MacHasInsomnia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0673A3D23ECB8D200A8A7CB /* Debug */,
+				E0673A3E23ECB8D200A8A7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0673A3F23ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomnia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0673A4023ECB8D200A8A7CB /* Debug */,
+				E0673A4123ECB8D200A8A7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0673A4223ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0673A4323ECB8D200A8A7CB /* Debug */,
+				E0673A4423ECB8D200A8A7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0673A1C23ECB8D000A8A7CB /* Project object */;
+}
