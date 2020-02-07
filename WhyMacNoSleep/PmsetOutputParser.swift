@@ -38,6 +38,10 @@ class PmsetOutputParser {
         let id = segments[5]
         let name = segments[6]
         
+        if action == "System" && type == "wide" {
+            return nil
+        }
+        
         let pmsetAssertion = PmsetAssertion(
             date: PmsetOutputParser.parseDate(date, time),
             action: action,

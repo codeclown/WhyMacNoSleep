@@ -7,13 +7,11 @@
 //
 
 import Cocoa
+import os
 
 class ViewController: NSViewController {
+    var pmsetAssertions: [PmsetAssertion] = []
     let lineOutputter = LineOutputter()
-    
-    let pmsetAssertions = [
-        PmsetAssertion(date: Date(), action: "actionfoo", type: "typefoo", pid: "pidfoo", id: "idfoo", name: "namefoo")
-    ]
     
     @IBOutlet var tableView: NSTableView!
     
@@ -22,6 +20,15 @@ class ViewController: NSViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        pmsetAssertions += [
+            PmsetAssertion(date: Date(), action: "Created", type: "BackgroundTask", pid: "298", id: "0x87473000b841f", name: "com.apple.metadata.mds_stores.power"),
+            PmsetAssertion(date: Date(), action: "Released", type: "BackgroundTask", pid: "298", id: "0x87473000b841f", name: "com.apple.metadata.mds_stores.power"),
+            PmsetAssertion(date: Date(), action: "Created", type: "BackgroundTask", pid: "306(336)", id: "0x87474000b8420", name: "com.apple.cloudkit.packageGarbageCollection"),
+            PmsetAssertion(date: Date(), action: "Created", type: "BackgroundTask", pid: "306(336)", id: "0x87474000b8421", name: "com.apple.cloudkit.pcs.memorycache.evict"),
+            PmsetAssertion(date: Date(), action: "Released", type: "BackgroundTask", pid: "306(336)", id: "0x87474000b8420", name: "com.apple.cloudkit.packageGarbageCollection"),
+            PmsetAssertion(date: Date(), action: "Released", type: "BackgroundTask", pid: "306(336)", id: "0x87474000b8421", name: "com.apple.cloudkit.pcs.memorycache.evict")
+        ]
 
         beginWatching()
     }
@@ -32,9 +39,14 @@ class ViewController: NSViewController {
     }
 
     func onNewPmsetLine(_ line: String) {
+        os_log("Received line: %s", line)
         let pmsetAssertion = PmsetOutputParser.parseLine(line)
         if pmsetAssertion != nil {
-            print(pmsetAssertion)
+            os_log("Parsed assertion: %s", pmsetAssertion.debugDescription)
+            pmsetAssertions.append(pmsetAssertion!)
+            // TODO scroll only if was already scrolled to bottom
+            tableView.reloadData()
+            tableView.scrollRowToVisible(pmsetAssertions.count)
         }
     }
 

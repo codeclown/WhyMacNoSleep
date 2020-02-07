@@ -1,15 +1,15 @@
 //
-//  MacHasInsomniaTests.swift
-//  MacHasInsomniaTests
+//  WhyMacNoSleepTests.swift
+//  WhyMacNoSleepTests
 //
 //  Created by Martti on 06/02/2020.
 //  Copyright © 2020 Codeclown. All rights reserved.
 //
 
 import XCTest
-@testable import MacHasInsomnia
+@testable import WhyMacNoSleep
 
-class MacHasInsomniaTests: XCTestCase {
+class WhyMacNoSleepTests: XCTestCase {
     func testLineOutputter() {
         let outputter = LineOutputter()
         XCTAssertEqual(outputter.feed(""), [])
@@ -58,6 +58,9 @@ class MacHasInsomniaTests: XCTestCase {
             "",
             "Time             Action      Type                          PID(Causing PID)    ID                  Name                                              ",
             "====             ======      ====                          ================    ==                  ====                                              ",
+            // TODO these should be shown in the table somehow
+            "02/07 21:03:33   System wide status: PreventUserIdleDisplaySleep: 1",
+            "02/07 21:03:33   System wide status: PreventUserIdleDisplaySleep: 0",
         ]
         
         for line in nilLines {
