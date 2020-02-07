@@ -1,6 +1,6 @@
 //
 //  PmsetOutputParser.swift
-//  MacHasInsomnia
+//  WhyMacNoSleep
 //
 //  Created by Martti on 06/02/2020.
 //  Copyright © 2020 Codeclown. All rights reserved.

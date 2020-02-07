@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E0673A2423ECB8D000A8A7CB /* MacHasInsomnia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacHasInsomnia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0673A2423ECB8D000A8A7CB /* WhyMacNoSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhyMacNoSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0673A2723ECB8D000A8A7CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0673A2923ECB8D000A8A7CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0673A2B23ECB8D200A8A7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0673A2E23ECB8D200A8A7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0673A3023ECB8D200A8A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0673A3123ECB8D200A8A7CB /* MacHasInsomnia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacHasInsomnia.entitlements; sourceTree = "<group>"; };
-		E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacHasInsomniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0673A3623ECB8D200A8A7CB /* WhyMacNoSleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhyMacNoSleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHasInsomniaTests.swift; sourceTree = "<group>"; };
 		E0673A3C23ECB8D200A8A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0673A4523ECBE9C00A8A7CB /* PmsetOutput1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PmsetOutput1.json; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		E0673A1B23ECB8D000A8A7CB = {
 			isa = PBXGroup;
 			children = (
-				E0673A2623ECB8D000A8A7CB /* MacHasInsomnia */,
-				E0673A3923ECB8D200A8A7CB /* MacHasInsomniaTests */,
+				E0673A2623ECB8D000A8A7CB /* WhyMacNoSleep */,
+				E0673A3923ECB8D200A8A7CB /* WhyMacNoSleepTests */,
 				E0673A2523ECB8D000A8A7CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,13 +73,13 @@
 		E0673A2523ECB8D000A8A7CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0673A2423ECB8D000A8A7CB /* MacHasInsomnia.app */,
-				E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */,
+				E0673A2423ECB8D000A8A7CB /* WhyMacNoSleep.app */,
+				E0673A3623ECB8D200A8A7CB /* WhyMacNoSleepTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E0673A2623ECB8D000A8A7CB /* MacHasInsomnia */ = {
+		E0673A2623ECB8D000A8A7CB /* WhyMacNoSleep */ = {
 			isa = PBXGroup;
 			children = (
 				E0673A2723ECB8D000A8A7CB /* AppDelegate.swift */,
@@ -91,25 +91,25 @@
 				E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */,
 				E072C0E523ECC48E00DE205D /* LineOutputter.swift */,
 			);
-			path = MacHasInsomnia;
+			path = WhyMacNoSleep;
 			sourceTree = "<group>";
 		};
-		E0673A3923ECB8D200A8A7CB /* MacHasInsomniaTests */ = {
+		E0673A3923ECB8D200A8A7CB /* WhyMacNoSleepTests */ = {
 			isa = PBXGroup;
 			children = (
 				E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */,
 				E0673A3C23ECB8D200A8A7CB /* Info.plist */,
 				E0673A4523ECBE9C00A8A7CB /* PmsetOutput1.json */,
 			);
-			path = MacHasInsomniaTests;
+			path = WhyMacNoSleepTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0673A2323ECB8D000A8A7CB /* MacHasInsomnia */ = {
+		E0673A2323ECB8D000A8A7CB /* WhyMacNoSleep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0673A3F23ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomnia" */;
+			buildConfigurationList = E0673A3F23ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "WhyMacNoSleep" */;
 			buildPhases = (
 				E0673A2023ECB8D000A8A7CB /* Sources */,
 				E0673A2123ECB8D000A8A7CB /* Frameworks */,
@@ -119,14 +119,14 @@
 			);
 			dependencies = (
 			);
-			name = MacHasInsomnia;
+			name = WhyMacNoSleep;
 			productName = MacHasInsomnia;
-			productReference = E0673A2423ECB8D000A8A7CB /* MacHasInsomnia.app */;
+			productReference = E0673A2423ECB8D000A8A7CB /* WhyMacNoSleep.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0673A3523ECB8D200A8A7CB /* MacHasInsomniaTests */ = {
+		E0673A3523ECB8D200A8A7CB /* WhyMacNoSleepTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0673A4223ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomniaTests" */;
+			buildConfigurationList = E0673A4223ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "WhyMacNoSleepTests" */;
 			buildPhases = (
 				E0673A3223ECB8D200A8A7CB /* Sources */,
 				E0673A3323ECB8D200A8A7CB /* Frameworks */,
@@ -137,9 +137,9 @@
 			dependencies = (
 				E0673A3823ECB8D200A8A7CB /* PBXTargetDependency */,
 			);
-			name = MacHasInsomniaTests;
+			name = WhyMacNoSleepTests;
 			productName = MacHasInsomniaTests;
-			productReference = E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */;
+			productReference = E0673A3623ECB8D200A8A7CB /* WhyMacNoSleepTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E0673A1F23ECB8D000A8A7CB /* Build configuration list for PBXProject "MacHasInsomnia" */;
+			buildConfigurationList = E0673A1F23ECB8D000A8A7CB /* Build configuration list for PBXProject "WhyMacNoSleep" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,8 +174,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0673A2323ECB8D000A8A7CB /* MacHasInsomnia */,
-				E0673A3523ECB8D200A8A7CB /* MacHasInsomniaTests */,
+				E0673A2323ECB8D000A8A7CB /* WhyMacNoSleep */,
+				E0673A3523ECB8D200A8A7CB /* WhyMacNoSleepTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +225,7 @@
 /* Begin PBXTargetDependency section */
 		E0673A3823ECB8D200A8A7CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E0673A2323ECB8D000A8A7CB /* MacHasInsomnia */;
+			target = E0673A2323ECB8D000A8A7CB /* WhyMacNoSleep */;
 			targetProxy = E0673A3723ECB8D200A8A7CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,17 +359,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MacHasInsomnia/MacHasInsomnia.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WhyMacNoSleep/WhyMacNoSleep.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FXN67LT3SC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MacHasInsomnia/Info.plist;
+				INFOPLIST_FILE = WhyMacNoSleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomnia;
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.WhyMacNoSleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -379,17 +379,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MacHasInsomnia/MacHasInsomnia.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WhyMacNoSleep/WhyMacNoSleep.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FXN67LT3SC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MacHasInsomnia/Info.plist;
+				INFOPLIST_FILE = WhyMacNoSleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomnia;
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.WhyMacNoSleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -403,17 +403,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FXN67LT3SC;
-				INFOPLIST_FILE = MacHasInsomniaTests/Info.plist;
+				INFOPLIST_FILE = WhyMacNoSleepTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomniaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.WhyMacNoSleepTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacHasInsomnia.app/Contents/MacOS/MacHasInsomnia";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhyMacNoSleep.app/Contents/MacOS/WhyMacNoSleep";
 			};
 			name = Debug;
 		};
@@ -425,24 +425,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FXN67LT3SC;
-				INFOPLIST_FILE = MacHasInsomniaTests/Info.plist;
+				INFOPLIST_FILE = WhyMacNoSleepTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = codeclown.MacHasInsomniaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = codeclown.WhyMacNoSleepTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacHasInsomnia.app/Contents/MacOS/MacHasInsomnia";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhyMacNoSleep.app/Contents/MacOS/WhyMacNoSleep";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0673A1F23ECB8D000A8A7CB /* Build configuration list for PBXProject "MacHasInsomnia" */ = {
+		E0673A1F23ECB8D000A8A7CB /* Build configuration list for PBXProject "WhyMacNoSleep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0673A3D23ECB8D200A8A7CB /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0673A3F23ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomnia" */ = {
+		E0673A3F23ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "WhyMacNoSleep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0673A4023ECB8D200A8A7CB /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0673A4223ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "MacHasInsomniaTests" */ = {
+		E0673A4223ECB8D200A8A7CB /* Build configuration list for PBXNativeTarget "WhyMacNoSleepTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0673A4323ECB8D200A8A7CB /* Debug */,
