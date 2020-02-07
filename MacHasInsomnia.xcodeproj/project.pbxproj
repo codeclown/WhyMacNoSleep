@@ -12,6 +12,9 @@
 		E0673A2C23ECB8D200A8A7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0673A2B23ECB8D200A8A7CB /* Assets.xcassets */; };
 		E0673A2F23ECB8D200A8A7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0673A2D23ECB8D200A8A7CB /* Main.storyboard */; };
 		E0673A3B23ECB8D200A8A7CB /* MacHasInsomniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */; };
+		E0673A4623ECBE9C00A8A7CB /* PmsetOutput1.json in Resources */ = {isa = PBXBuildFile; fileRef = E0673A4523ECBE9C00A8A7CB /* PmsetOutput1.json */; };
+		E0673A4823ECC1B600A8A7CB /* PmsetOutputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */; };
+		E072C0E623ECC48E00DE205D /* LineOutputter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E072C0E523ECC48E00DE205D /* LineOutputter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		E0673A3623ECB8D200A8A7CB /* MacHasInsomniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacHasInsomniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHasInsomniaTests.swift; sourceTree = "<group>"; };
 		E0673A3C23ECB8D200A8A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0673A4523ECBE9C00A8A7CB /* PmsetOutput1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PmsetOutput1.json; sourceTree = "<group>"; };
+		E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PmsetOutputParser.swift; sourceTree = "<group>"; };
+		E072C0E523ECC48E00DE205D /* LineOutputter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineOutputter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 				E0673A2D23ECB8D200A8A7CB /* Main.storyboard */,
 				E0673A3023ECB8D200A8A7CB /* Info.plist */,
 				E0673A3123ECB8D200A8A7CB /* MacHasInsomnia.entitlements */,
+				E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */,
+				E072C0E523ECC48E00DE205D /* LineOutputter.swift */,
 			);
 			path = MacHasInsomnia;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 			children = (
 				E0673A3A23ECB8D200A8A7CB /* MacHasInsomniaTests.swift */,
 				E0673A3C23ECB8D200A8A7CB /* Info.plist */,
+				E0673A4523ECBE9C00A8A7CB /* PmsetOutput1.json */,
 			);
 			path = MacHasInsomniaTests;
 			sourceTree = "<group>";
@@ -185,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0673A4623ECBE9C00A8A7CB /* PmsetOutput1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0673A2A23ECB8D000A8A7CB /* ViewController.swift in Sources */,
+				E0673A4823ECC1B600A8A7CB /* PmsetOutputParser.swift in Sources */,
+				E072C0E623ECC48E00DE205D /* LineOutputter.swift in Sources */,
 				E0673A2823ECB8D000A8A7CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
