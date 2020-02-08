@@ -20,24 +20,17 @@ class ViewController: NSViewController {
         tableContainer.documentView = table.getTableView()
         
         // Uncomment for local testing
-//        addDebugItems()
+        addDebugItems()
         
         let watcher = PmsetWatcher()
         NotificationCenter.default.addObserver(forName: .NSFileHandleDataAvailable, object: nil, queue: nil) { (notification) in
             watcher.onFileHandleDataAvailable(notification)
         }
-//        NotificationCenter.default.addObserver(
-//            self,
-//            selector: #selector(self.onFileHandleDataAvailable),
-//            name: NSNotification.Name.NSFileHandleDataAvailable,
-//            object: nil
-//        )
         watcher.handler = onNewAssertion
         watcher.start()
     }
     
     func onNewAssertion(_ pmsetAssertion: PmsetAssertion) {
-//        print(pmsetAssertion)
         if pmsetAssertion.type == "PreventUserIdleSystemSleep" {
             pmsetAssertions.append(pmsetAssertion)
             table.items = pmsetAssertions;
