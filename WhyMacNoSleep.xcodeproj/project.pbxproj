@@ -15,6 +15,8 @@
 		E0673A4623ECBE9C00A8A7CB /* PmsetOutput1.json in Resources */ = {isa = PBXBuildFile; fileRef = E0673A4523ECBE9C00A8A7CB /* PmsetOutput1.json */; };
 		E0673A4823ECC1B600A8A7CB /* PmsetOutputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */; };
 		E072C0E623ECC48E00DE205D /* LineOutputter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E072C0E523ECC48E00DE205D /* LineOutputter.swift */; };
+		E07443F123EE1185006D1735 /* AssertionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07443F023EE1185006D1735 /* AssertionTable.swift */; };
+		E07443F323EE1769006D1735 /* PmsetWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07443F223EE1769006D1735 /* PmsetWatcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PmsetOutputParser.swift; sourceTree = "<group>"; };
 		E072C0E523ECC48E00DE205D /* LineOutputter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineOutputter.swift; sourceTree = "<group>"; };
 		E07443EF23EDF4B0006D1735 /* WhyMacNoSleep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhyMacNoSleep.entitlements; sourceTree = "<group>"; };
+		E07443F023EE1185006D1735 /* AssertionTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionTable.swift; sourceTree = "<group>"; };
+		E07443F223EE1769006D1735 /* PmsetWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PmsetWatcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +88,14 @@
 			children = (
 				E0673A2723ECB8D000A8A7CB /* AppDelegate.swift */,
 				E0673A2923ECB8D000A8A7CB /* ViewController.swift */,
+				E07443F023EE1185006D1735 /* AssertionTable.swift */,
 				E0673A2B23ECB8D200A8A7CB /* Assets.xcassets */,
 				E0673A2D23ECB8D200A8A7CB /* Main.storyboard */,
 				E07443EF23EDF4B0006D1735 /* WhyMacNoSleep.entitlements */,
 				E0673A3023ECB8D200A8A7CB /* Info.plist */,
 				E0673A4723ECC1B600A8A7CB /* PmsetOutputParser.swift */,
 				E072C0E523ECC48E00DE205D /* LineOutputter.swift */,
+				E07443F223EE1769006D1735 /* PmsetWatcher.swift */,
 			);
 			path = WhyMacNoSleep;
 			sourceTree = "<group>";
@@ -207,8 +213,10 @@
 			files = (
 				E0673A2A23ECB8D000A8A7CB /* ViewController.swift in Sources */,
 				E0673A4823ECC1B600A8A7CB /* PmsetOutputParser.swift in Sources */,
+				E07443F323EE1769006D1735 /* PmsetWatcher.swift in Sources */,
 				E072C0E623ECC48E00DE205D /* LineOutputter.swift in Sources */,
 				E0673A2823ECB8D000A8A7CB /* AppDelegate.swift in Sources */,
+				E07443F123EE1185006D1735 /* AssertionTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
