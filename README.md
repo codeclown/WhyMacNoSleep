@@ -2,7 +2,7 @@
 
 > Mac application to illustrate which application is preventing your Mac from sleeping
 
-![/WhyMacNoSleep.png](Screenshot of WhyMacNoSleep)
+![Screenshot of WhyMacNoSleep](/WhyMacNoSleep.png)
 
 ## This application is WIP
 
