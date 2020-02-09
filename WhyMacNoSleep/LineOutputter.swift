@@ -8,6 +8,9 @@
 
 import Foundation
 
+// Takes in string output (from a pipe, probably), and
+// outputs lines when line breaks are encountered.
+
 class LineOutputter {
     var data: String
     

@@ -11,7 +11,7 @@ import Cocoa
 class AssertionTable: NSObject {
     var table = NSTableView()
     let dateFormatter = DateFormatter()
-    var items: [PmsetAssertion] = []
+    var items: [ListItem] = []
     
     override init() {
         super.init()
@@ -70,21 +70,22 @@ extension AssertionTable: NSTableViewDelegate {
             return nil
         }
         
-        let pmsetAssertion = items[row]
+        let listItem = items[row]
         let cell = NSTableCellView()
         
         if tableColumn == table.tableColumns[0] {
-            let text = dateFormatter.string(from: pmsetAssertion.date)
+            let text = dateFormatter.string(from: listItem.date)
             let textField = NSTextField(labelWithString: text)
             cell.addSubview(textField)
         } else if tableColumn == table.tableColumns[1] {
-            let text = getEventLabel(pmsetAssertion.action)
+            let text = getEventLabel(listItem.action)
             let textField = NSTextField(labelWithString: text)
             cell.addSubview(textField)
         } else if tableColumn == table.tableColumns[2] {
-            let text = pmsetAssertion.name
+            let text = listItem.name
             let textField = NSTextField(labelWithString: text)
             cell.addSubview(textField)
+//            cell.toolTip = listItem.tooltip
         }
         
         return cell
@@ -94,10 +95,10 @@ extension AssertionTable: NSTableViewDelegate {
         switch action {
             case "Created", "TurnedOn":
                 return "Preventing sleep"
-            case "Released", "TurnedOff":
+            case "Released", "TurnedOff", "ClientDied":
                 return "Lock released"
             default:
-                return ""
+                return "Unknown"
         }
     }
 }

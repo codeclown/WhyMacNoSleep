@@ -14,13 +14,6 @@ class PmsetWatcher: NSObject {
     let lineOutputter = LineOutputter()
     
     func start() {
-//        NotificationCenter.default.addObserver(
-//            self,
-//            selector: #selector(self.onFileHandleDataAvailable),
-//            name: NSNotification.Name.NSFileHandleDataAvailable,
-//            object: nil
-//        )
-        
         let pipe = Pipe()
         let handle = pipe.fileHandleForReading
         
